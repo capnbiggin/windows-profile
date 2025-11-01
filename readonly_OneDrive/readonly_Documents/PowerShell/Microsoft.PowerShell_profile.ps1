@@ -17,7 +17,7 @@ $ENV:EDITOR = "C:\Program Files\Microsoft VS Code\Code.exe"
 # ~~~~~~~~~~~~Aliases~~~~~~~~~~~~~~~~~~~~#
 
 Set-Alias -name c -value Clear-Host
-Set-Alias -name ll -value Get-ChildItem -Force
+Set-Alias -name ll -value "Get-ChildItem -Force"
 
 function pshell { z "$HOME\OneDrive\Documents\PowerShell" }
 function brain { z "$HOME\Documents\My-Brain\" }
